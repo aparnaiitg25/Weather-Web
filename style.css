@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 1.5em;
+    font-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: #000000d0;
+    color:white;
+    padding: 2em;
+    border-radius: 20px;
+    width: 70%;
+    max-width: 500px;
+    margin: 0.5em;
+    height: 50%;
+}
+h1.temp {
+    margin: 0;
+}
+.search{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 40px;
+    width: 80px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 100%;
+    width: 200%;
+}
+
+button:hover {
+    background: #7c7c7c6b;
+}
+
+  .city{
+    margin-left: 9rem;
+    font-weight:1000;
+    color:burlywood;
+    font-family: 'Rubik Bubbles', system-ui;
+ }
+ .temp{
+    margin-left: 10rem;
+    color:brown;
+    font-weight: 600;
+    font-family: 'Salsa', cursive;
+    font-size: larger;
+ }
+ .description{
+    margin-left: 14rem;
+    color:brown;
+    font-weight: 600;
+    font-family: 'Salsa', cursive;
+    font-size: larger;
+
+ }
+ .humidity{
+    margin-left: 11rem;
+    color:brown;
+    font-weight: 600;
+    font-family: 'Salsa', cursive;
+    font-size: larger;
+ }
+ .wind{
+    margin-left: 9rem;
+    color:brown;
+    font-weight: 600;
+    font-family: 'Salsa', cursive;
+    font-size: larger;
+ }
+   
+
+
+
+    
